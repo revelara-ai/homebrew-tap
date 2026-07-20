@@ -4,22 +4,22 @@ cask "orion" do
 
   on_macos do
     on_intel do
-      sha256 "255222dce0d2e56a146d5afa9c399f62faee3ef10ad1cbd8bb017b5b7411bab6"
+      sha256 "94495a2e92cbad69e2e2f6d5c3a5a7aecc5e7057c37cb5111890c2236b84c625"
       url "https://github.com/revelara-ai/orion/releases/download/v#{version}/orion_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "abd15ea798fc417bf2a1fcdb3cbacd50819c87d71b2993a9ec79c4c505de17a9"
+      sha256 "660c790b39e22d654c3d086bfdcdc0335ac93ad818df4c36d4c3d2a3e254cdee"
       url "https://github.com/revelara-ai/orion/releases/download/v#{version}/orion_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "425b32c6bbf8a217df4433ed63a6d7a49478a6769dc36666e7b1275cc53ccaea"
+      sha256 "8ead28bd51d96ef3159be1f60d5bafae4ac426300442cb117fc5257f2bf94441"
       url "https://github.com/revelara-ai/orion/releases/download/v#{version}/orion_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "da2a4f40e1bc889d02ca684085f8e0ea0255dc034d1d5b89adf4ece2199e2138"
+      sha256 "eef6ded31730cdc0ff5d90434be3137b73d19b707824411ed8e0910d4df7643d"
       url "https://github.com/revelara-ai/orion/releases/download/v#{version}/orion_#{version}_linux_arm64.tar.gz"
     end
   end
