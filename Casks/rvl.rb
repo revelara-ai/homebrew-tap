@@ -4,11 +4,11 @@
 # It is written from that release's cargo-dist dist-manifest.json. Editing it
 # here is pointless: the next tag overwrites the file wholesale.
 cask "rvl" do
-  version "1.2.2"
+  version "1.3.0"
 
   on_macos do
     on_intel do
-      sha256 "fd819a25f25519cf66aecd2437e5229a9026ab16f365c0b5acf0453095412a52"
+      sha256 "da7855de1735743509793bb45d43d3e6c80daa4468cefd91f120a012d63d57fc"
       url "https://github.com/revelara-ai/rvl-cli/releases/download/v#{version}/rvl-x86_64-apple-darwin.tar.xz"
       binary "rvl-x86_64-apple-darwin/rvl"
       binary "rvl-x86_64-apple-darwin/cindex"
@@ -16,7 +16,7 @@ cask "rvl" do
       binary "rvl-x86_64-apple-darwin/rustindex"
     end
     on_arm do
-      sha256 "0b7362f1b10e4d7ae1408c18c98de5fc74d976915709e9ed90861cbff958a13e"
+      sha256 "e4d46a1fca1f7f2704c84c8c7852928fa3772b831419cb77e6184de624e477a6"
       url "https://github.com/revelara-ai/rvl-cli/releases/download/v#{version}/rvl-aarch64-apple-darwin.tar.xz"
       binary "rvl-aarch64-apple-darwin/rvl"
       binary "rvl-aarch64-apple-darwin/cindex"
@@ -27,7 +27,7 @@ cask "rvl" do
 
   on_linux do
     on_intel do
-      sha256 "f2c182f710214229359c6d2b390c9edae1c6a011c1313aa67f2750398e9b84d9"
+      sha256 "a4c8963cbc2fc576d5683bf1f2c05e1c1daa13962f3fe1db5c130f22de3ef939"
       url "https://github.com/revelara-ai/rvl-cli/releases/download/v#{version}/rvl-x86_64-unknown-linux-gnu.tar.xz"
       binary "rvl-x86_64-unknown-linux-gnu/rvl"
       binary "rvl-x86_64-unknown-linux-gnu/cindex"
@@ -35,7 +35,7 @@ cask "rvl" do
       binary "rvl-x86_64-unknown-linux-gnu/rustindex"
     end
     on_arm do
-      sha256 "6632c548d3b4bd53e19497951e786fc0a546dddc0270e29d737a870f265d04e2"
+      sha256 "340d64a288badcdd488f042bba6435f59135b0b27e7642c82f11eb562724e469"
       url "https://github.com/revelara-ai/rvl-cli/releases/download/v#{version}/rvl-aarch64-unknown-linux-gnu.tar.xz"
       binary "rvl-aarch64-unknown-linux-gnu/rvl"
       binary "rvl-aarch64-unknown-linux-gnu/cindex"
